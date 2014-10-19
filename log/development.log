@@ -1,0 +1,521 @@
+[Sun Oct 19 05:20:33 2014] [info] Listening at "http://*:3000".
+[Sun Oct 19 05:20:34 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 19 05:20:34 2014] [debug] GET "/".
+[Sun Oct 19 05:20:34 2014] [debug] Routing to controller "MojoTemplate::Controller::Example" and action "welcome".
+[Sun Oct 19 05:20:34 2014] [debug] Rendering template "example/welcome.html.ep".
+[Sun Oct 19 05:20:34 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 19 05:20:34 2014] [debug] 200 OK (0.004542s, 220.167/s).
+[Sun Oct 19 05:20:45 2014] [info] Listening at "http://*:3000".
+[Sun Oct 19 05:22:02 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 19 05:22:02 2014] [debug] GET "/".
+[Sun Oct 19 05:22:02 2014] [debug] Routing to controller "MojoTemplate::Controller::Example" and action "welcome".
+[Sun Oct 19 05:22:02 2014] [debug] Rendering template "example/welcome.html.ep".
+[Sun Oct 19 05:22:02 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 19 05:22:02 2014] [debug] 200 OK (0.005539s, 180.538/s).
+[Sun Oct 19 05:25:29 2014] [debug] GET "/".
+[Sun Oct 19 05:25:29 2014] [debug] Routing to controller "MojoTemplate::Controller::Example" and action "welcome".
+[Sun Oct 19 05:25:29 2014] [debug] Rendering cached template "example/welcome.html.ep".
+[Sun Oct 19 05:25:29 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 19 05:25:29 2014] [debug] 200 OK (0.000944s, 1059.322/s).
+[Sun Oct 19 05:25:31 2014] [debug] GET "/".
+[Sun Oct 19 05:25:31 2014] [debug] Routing to controller "MojoTemplate::Controller::Example" and action "welcome".
+[Sun Oct 19 05:25:31 2014] [debug] Rendering cached template "example/welcome.html.ep".
+[Sun Oct 19 05:25:31 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 19 05:25:31 2014] [debug] 200 OK (0.001740s, 574.713/s).
+[Sun Oct 19 05:25:45 2014] [debug] GET "/".
+[Sun Oct 19 05:25:45 2014] [debug] Routing to controller "MojoTemplate::Controller::Example" and action "welcome".
+[Sun Oct 19 05:25:45 2014] [debug] Rendering cached template "example/welcome.html.ep".
+[Sun Oct 19 05:25:45 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 19 05:25:45 2014] [debug] 200 OK (0.000998s, 1002.004/s).
+[Sun Oct 19 05:25:46 2014] [debug] GET "/".
+[Sun Oct 19 05:25:46 2014] [debug] Routing to controller "MojoTemplate::Controller::Example" and action "welcome".
+[Sun Oct 19 05:25:46 2014] [debug] Rendering cached template "example/welcome.html.ep".
+[Sun Oct 19 05:25:46 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 19 05:25:46 2014] [debug] 200 OK (0.000540s, 1851.852/s).
+[Sun Oct 19 05:25:55 2014] [info] Listening at "http://*:3000".
+[Sun Oct 19 05:25:56 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 19 05:25:56 2014] [debug] GET "/".
+[Sun Oct 19 05:25:56 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "index".
+[Sun Oct 19 05:25:56 2014] [debug] Rendering template "main/index.html.ep".
+[Sun Oct 19 05:25:56 2014] [error] Global symbol "$msg" requires explicit package name at template main/index.html.ep line 3.
+1: % layout 'default';
+2: % title 'Welcome';
+3: <h2><%= $msg %></h2>
+4: This page was generated from the template "templates/example/welcome.html.ep"
+5: and the layout "templates/layouts/default.html.ep",
+6: <a href="<%== url_for %>">click here</a> to reload the page or
+7: <a href="/index.html">here</a> to move forward to a static page.
+8: <h1>fuxk you</h1>
+
+[Sun Oct 19 05:25:56 2014] [debug] Template "exception.development.html.ep" not found.
+[Sun Oct 19 05:25:56 2014] [debug] Template "exception.html.ep" not found.
+[Sun Oct 19 05:25:56 2014] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sun Oct 19 05:25:56 2014] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sun Oct 19 05:25:56 2014] [debug] 500 Internal Server Error (0.021634s, 46.224/s).
+[Sun Oct 19 05:26:57 2014] [debug] GET "/".
+[Sun Oct 19 05:26:57 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "index".
+[Sun Oct 19 05:26:57 2014] [debug] Rendering template "main/index.html.ep".
+[Sun Oct 19 05:26:57 2014] [debug] 200 OK (0.001643s, 608.643/s).
+[Sun Oct 19 05:27:28 2014] [debug] GET "/".
+[Sun Oct 19 05:27:28 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "index".
+[Sun Oct 19 05:27:28 2014] [debug] Rendering cached template "main/index.html.ep".
+[Sun Oct 19 05:27:28 2014] [debug] 200 OK (0.000732s, 1366.120/s).
+[Sun Oct 19 05:27:32 2014] [info] Listening at "http://*:3000".
+[Sun Oct 19 05:27:33 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 19 05:27:33 2014] [debug] GET "/".
+[Sun Oct 19 05:27:33 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "index".
+[Sun Oct 19 05:27:33 2014] [debug] Rendering template "main/index.html.ep".
+[Sun Oct 19 05:27:33 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 19 05:27:33 2014] [debug] 200 OK (0.005761s, 173.581/s).
+[Sun Oct 19 05:35:09 2014] [info] Listening at "http://*:3000".
+[Sun Oct 19 05:35:10 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 19 05:35:10 2014] [debug] GET "/".
+[Sun Oct 19 05:35:10 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sun Oct 19 05:35:10 2014] [debug] Template "not_found.html.ep" not found.
+[Sun Oct 19 05:35:10 2014] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sun Oct 19 05:35:10 2014] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sun Oct 19 05:35:10 2014] [debug] 404 Not Found (0.022278s, 44.887/s).
+[Sun Oct 19 05:35:21 2014] [debug] GET "/1".
+[Sun Oct 19 05:35:21 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "index".
+[Sun Oct 19 05:35:21 2014] [debug] Rendering template "main/index.html.ep".
+[Sun Oct 19 05:35:21 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 19 05:35:21 2014] [debug] 200 OK (0.005685s, 175.901/s).
+[Sun Oct 19 05:40:40 2014] [info] Listening at "http://*:3000".
+[Sun Oct 19 05:40:44 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 19 05:40:44 2014] [debug] GET "/about".
+[Sun Oct 19 05:40:44 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "index".
+[Sun Oct 19 05:40:44 2014] [debug] Rendering template "main/index.html.ep".
+[Sun Oct 19 05:40:44 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 19 05:40:44 2014] [debug] 200 OK (0.007002s, 142.816/s).
+[Sun Oct 19 05:41:29 2014] [info] Listening at "http://*:3000".
+[Sun Oct 19 05:41:33 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 19 05:41:33 2014] [debug] GET "/about".
+[Sun Oct 19 05:41:33 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "index".
+[Sun Oct 19 05:41:33 2014] [debug] Rendering template "main/index.html.ep".
+[Sun Oct 19 05:41:33 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 19 05:41:33 2014] [debug] 200 OK (0.009394s, 106.451/s).
+[Sun Oct 19 05:42:20 2014] [debug] GET "/about".
+[Sun Oct 19 05:42:20 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "index".
+[Sun Oct 19 05:42:20 2014] [debug] Rendering cached template "main/index.html.ep".
+[Sun Oct 19 05:42:20 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 19 05:42:20 2014] [debug] 200 OK (0.000968s, 1033.058/s).
+[Sun Oct 19 05:42:33 2014] [debug] GET "/about".
+[Sun Oct 19 05:42:33 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "index".
+[Sun Oct 19 05:42:33 2014] [debug] Rendering cached template "main/index.html.ep".
+[Sun Oct 19 05:42:33 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 19 05:42:33 2014] [debug] 200 OK (0.001880s, 531.915/s).
+[Sun Oct 19 05:42:39 2014] [info] Listening at "http://*:3000".
+[Sun Oct 19 05:42:40 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 19 05:42:40 2014] [debug] GET "/about".
+[Sun Oct 19 05:42:40 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "index".
+[Sun Oct 19 05:42:40 2014] [debug] Rendering template "main/index.html.ep".
+[Sun Oct 19 05:42:40 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 19 05:42:40 2014] [debug] 200 OK (0.008381s, 119.318/s).
+[Sun Oct 19 05:42:49 2014] [debug] GET "/about".
+[Sun Oct 19 05:42:49 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "index".
+[Sun Oct 19 05:42:49 2014] [debug] Rendering cached template "main/index.html.ep".
+[Sun Oct 19 05:42:49 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 19 05:42:49 2014] [debug] 200 OK (0.001774s, 563.698/s).
+[Sun Oct 19 05:42:49 2014] [debug] GET "/about".
+[Sun Oct 19 05:42:49 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "index".
+[Sun Oct 19 05:42:49 2014] [debug] Rendering cached template "main/index.html.ep".
+[Sun Oct 19 05:42:49 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 19 05:42:49 2014] [debug] 200 OK (0.001347s, 742.390/s).
+[Sun Oct 19 05:42:50 2014] [debug] GET "/about".
+[Sun Oct 19 05:42:50 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "index".
+[Sun Oct 19 05:42:50 2014] [debug] Rendering cached template "main/index.html.ep".
+[Sun Oct 19 05:42:50 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 19 05:42:50 2014] [debug] 200 OK (0.000988s, 1012.146/s).
+[Sun Oct 19 05:42:51 2014] [debug] GET "/contact".
+[Sun Oct 19 05:42:51 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "index".
+[Sun Oct 19 05:42:51 2014] [debug] Rendering cached template "main/index.html.ep".
+[Sun Oct 19 05:42:51 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 19 05:42:51 2014] [debug] 200 OK (0.001898s, 526.870/s).
+[Sun Oct 19 05:42:52 2014] [debug] GET "/about".
+[Sun Oct 19 05:42:52 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "index".
+[Sun Oct 19 05:42:52 2014] [debug] Rendering cached template "main/index.html.ep".
+[Sun Oct 19 05:42:52 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 19 05:42:52 2014] [debug] 200 OK (0.001689s, 592.066/s).
+[Sun Oct 19 05:43:03 2014] [debug] GET "/about".
+[Sun Oct 19 05:43:03 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "index".
+[Sun Oct 19 05:43:03 2014] [debug] Rendering cached template "main/index.html.ep".
+[Sun Oct 19 05:43:03 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 19 05:43:03 2014] [debug] 200 OK (0.001339s, 746.826/s).
+[Sun Oct 19 05:43:04 2014] [debug] GET "/about".
+[Sun Oct 19 05:43:04 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "index".
+[Sun Oct 19 05:43:04 2014] [debug] Rendering cached template "main/index.html.ep".
+[Sun Oct 19 05:43:04 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 19 05:43:04 2014] [debug] 200 OK (0.001178s, 848.896/s).
+[Sun Oct 19 05:43:16 2014] [info] Listening at "http://*:3000".
+[Sun Oct 19 05:43:17 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 19 05:43:17 2014] [debug] GET "/about".
+[Sun Oct 19 05:43:17 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "index".
+[Sun Oct 19 05:43:17 2014] [debug] Rendering template "main/index.html.ep".
+[Sun Oct 19 05:43:17 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 19 05:43:17 2014] [debug] 200 OK (0.008558s, 116.850/s).
+[Sun Oct 19 05:43:22 2014] [debug] GET "/about".
+[Sun Oct 19 05:43:22 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "index".
+[Sun Oct 19 05:43:22 2014] [debug] Rendering cached template "main/index.html.ep".
+[Sun Oct 19 05:43:22 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 19 05:43:22 2014] [debug] 200 OK (0.001049s, 953.289/s).
+[Sun Oct 19 05:43:23 2014] [debug] GET "/about".
+[Sun Oct 19 05:43:23 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "index".
+[Sun Oct 19 05:43:23 2014] [debug] Rendering cached template "main/index.html.ep".
+[Sun Oct 19 05:43:23 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 19 05:43:23 2014] [debug] 200 OK (0.001519s, 658.328/s).
+[Sun Oct 19 05:54:50 2014] [info] Listening at "http://*:3000".
+[Sun Oct 19 05:54:53 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 19 05:54:53 2014] [debug] GET "/about".
+[Sun Oct 19 05:54:53 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "index".
+[Sun Oct 19 05:54:53 2014] [debug] Rendering template "main/index.html.ep".
+[Sun Oct 19 05:54:53 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 19 05:54:53 2014] [debug] 200 OK (0.006887s, 145.201/s).
+[Sun Oct 19 05:54:56 2014] [debug] GET "/1".
+[Sun Oct 19 05:54:56 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "index".
+[Sun Oct 19 05:54:56 2014] [debug] Rendering cached template "main/index.html.ep".
+[Sun Oct 19 05:54:56 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 19 05:54:56 2014] [debug] 200 OK (0.001158s, 863.558/s).
+[Sun Oct 19 05:54:58 2014] [debug] GET "/2".
+[Sun Oct 19 05:54:58 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "index".
+[Sun Oct 19 05:54:58 2014] [debug] Rendering cached template "main/index.html.ep".
+[Sun Oct 19 05:54:58 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 19 05:54:58 2014] [debug] 200 OK (0.002402s, 416.320/s).
+[Sun Oct 19 05:55:00 2014] [debug] GET "/4".
+[Sun Oct 19 05:55:00 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "index".
+[Sun Oct 19 05:55:00 2014] [debug] Rendering cached template "main/index.html.ep".
+[Sun Oct 19 05:55:00 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 19 05:55:00 2014] [debug] 200 OK (0.001975s, 506.329/s).
+[Sun Oct 19 05:55:44 2014] [info] Listening at "http://*:3000".
+[Sun Oct 19 05:55:46 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 19 05:55:46 2014] [debug] GET "/4".
+[Sun Oct 19 05:55:46 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "index".
+[Sun Oct 19 05:55:46 2014] [debug] Rendering template "main/index.html.ep".
+[Sun Oct 19 05:55:46 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 19 05:55:46 2014] [debug] 200 OK (0.006094s, 164.096/s).
+[Sun Oct 19 05:55:51 2014] [debug] GET "/about".
+[Sun Oct 19 05:55:51 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "index".
+[Sun Oct 19 05:55:51 2014] [debug] Rendering cached template "main/index.html.ep".
+[Sun Oct 19 05:55:51 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 19 05:55:51 2014] [debug] 200 OK (0.002478s, 403.551/s).
+[Sun Oct 19 05:55:53 2014] [debug] GET "/contact".
+[Sun Oct 19 05:55:53 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "index".
+[Sun Oct 19 05:55:53 2014] [debug] Rendering cached template "main/index.html.ep".
+[Sun Oct 19 05:55:53 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 19 05:55:53 2014] [debug] 200 OK (0.002291s, 436.491/s).
+[Sun Oct 19 05:57:02 2014] [info] Listening at "http://*:3000".
+[Sun Oct 19 05:57:04 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 19 05:57:04 2014] [debug] GET "/contact".
+[Sun Oct 19 05:57:04 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "index".
+[Sun Oct 19 05:57:04 2014] [debug] Rendering template "main/index.html.ep".
+[Sun Oct 19 05:57:04 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 19 05:57:04 2014] [debug] 200 OK (0.010243s, 97.628/s).
+[Sun Oct 19 05:57:07 2014] [debug] GET "/test".
+[Sun Oct 19 05:57:07 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "index".
+[Sun Oct 19 05:57:07 2014] [debug] Rendering cached template "main/index.html.ep".
+[Sun Oct 19 05:57:07 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 19 05:57:07 2014] [debug] 200 OK (0.003111s, 321.440/s).
+[Sun Oct 19 05:57:37 2014] [info] Listening at "http://*:3000".
+[Sun Oct 19 05:57:41 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 19 05:57:41 2014] [debug] GET "/about".
+[Sun Oct 19 05:57:41 2014] [debug] Routing to controller "MojoTemplate::Controller::Other" and action "about".
+[Sun Oct 19 05:57:41 2014] [debug] Rendering template "other/about.html.ep".
+[Sun Oct 19 05:57:41 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 19 05:57:41 2014] [debug] 200 OK (0.007642s, 130.856/s).
+[Sun Oct 19 05:57:46 2014] [debug] GET "/video/1010".
+[Sun Oct 19 05:57:46 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "detail".
+[Sun Oct 19 05:57:46 2014] [debug] Rendering template "main/detail.html.ep".
+[Sun Oct 19 05:57:46 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 19 05:57:46 2014] [debug] 200 OK (0.008208s, 121.832/s).
+[Sun Oct 19 05:57:46 2014] [debug] GET "/video/js/bootstrap.min.js".
+[Sun Oct 19 05:57:46 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sun Oct 19 05:57:46 2014] [debug] Template "not_found.html.ep" not found.
+[Sun Oct 19 05:57:46 2014] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sun Oct 19 05:57:46 2014] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sun Oct 19 05:57:46 2014] [debug] 404 Not Found (0.024551s, 40.732/s).
+[Sun Oct 19 05:57:49 2014] [debug] GET "/".
+[Sun Oct 19 05:57:49 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sun Oct 19 05:57:49 2014] [debug] Template "not_found.html.ep" not found.
+[Sun Oct 19 05:57:49 2014] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sun Oct 19 05:57:49 2014] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sun Oct 19 05:57:49 2014] [debug] 404 Not Found (0.006973s, 143.410/s).
+[Sun Oct 19 06:08:19 2014] [info] Listening at "http://*:3000".
+[Sun Oct 19 06:08:21 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 19 06:08:21 2014] [debug] GET "/".
+[Sun Oct 19 06:08:21 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "index".
+[Sun Oct 19 06:08:21 2014] [debug] Rendering template "main/index.html.ep".
+[Sun Oct 19 06:08:21 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 19 06:08:21 2014] [debug] 200 OK (0.014110s, 70.872/s).
+[Sun Oct 19 06:08:25 2014] [debug] GET "/1".
+[Sun Oct 19 06:08:25 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sun Oct 19 06:08:25 2014] [debug] Template "not_found.html.ep" not found.
+[Sun Oct 19 06:08:25 2014] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sun Oct 19 06:08:25 2014] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sun Oct 19 06:08:25 2014] [debug] 404 Not Found (0.025868s, 38.658/s).
+[Sun Oct 19 06:08:43 2014] [debug] GET "/video/1010".
+[Sun Oct 19 06:08:43 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "detail".
+[Sun Oct 19 06:08:43 2014] [debug] Rendering template "main/detail.html.ep".
+[Sun Oct 19 06:08:43 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 19 06:08:43 2014] [debug] 200 OK (0.005620s, 177.936/s).
+[Sun Oct 19 06:08:43 2014] [debug] GET "/video/js/bootstrap.min.js".
+[Sun Oct 19 06:08:43 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sun Oct 19 06:08:43 2014] [debug] Template "not_found.html.ep" not found.
+[Sun Oct 19 06:08:43 2014] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sun Oct 19 06:08:43 2014] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sun Oct 19 06:08:43 2014] [debug] 404 Not Found (0.010219s, 97.857/s).
+[Sun Oct 19 06:08:49 2014] [debug] GET "/2".
+[Sun Oct 19 06:08:49 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sun Oct 19 06:08:49 2014] [debug] Template "not_found.html.ep" not found.
+[Sun Oct 19 06:08:49 2014] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sun Oct 19 06:08:49 2014] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sun Oct 19 06:08:49 2014] [debug] 404 Not Found (0.007733s, 129.316/s).
+[Sun Oct 19 06:17:03 2014] [info] Listening at "http://*:3000".
+[Sun Oct 19 06:17:06 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 19 06:17:06 2014] [debug] GET "/2".
+[Sun Oct 19 06:17:06 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "index".
+[Sun Oct 19 06:17:06 2014] [debug] Rendering template "main/index.html.ep".
+[Sun Oct 19 06:17:06 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 19 06:17:06 2014] [debug] 200 OK (0.012261s, 81.559/s).
+[Sun Oct 19 06:17:18 2014] [debug] GET "/video/1010".
+[Sun Oct 19 06:17:18 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "detail".
+[Sun Oct 19 06:17:18 2014] [debug] Rendering template "main/detail.html.ep".
+[Sun Oct 19 06:17:18 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 19 06:17:18 2014] [debug] 200 OK (0.008000s, 125.000/s).
+[Sun Oct 19 06:17:18 2014] [debug] GET "/video/js/bootstrap.min.js".
+[Sun Oct 19 06:17:18 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sun Oct 19 06:17:18 2014] [debug] Template "not_found.html.ep" not found.
+[Sun Oct 19 06:17:18 2014] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sun Oct 19 06:17:18 2014] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sun Oct 19 06:17:18 2014] [debug] 404 Not Found (0.029548s, 33.843/s).
+[Sun Oct 19 06:18:06 2014] [info] Listening at "http://*:3000".
+[Sun Oct 19 06:18:08 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 19 06:18:08 2014] [debug] GET "/video/1010".
+[Sun Oct 19 06:18:08 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "detail".
+[Sun Oct 19 06:18:08 2014] [debug] Rendering template "main/detail.html.ep".
+[Sun Oct 19 06:18:08 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 19 06:18:08 2014] [debug] 200 OK (0.011710s, 85.397/s).
+[Sun Oct 19 06:18:08 2014] [debug] GET "/video/js/bootstrap.min.js".
+[Sun Oct 19 06:18:08 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sun Oct 19 06:18:08 2014] [debug] Template "not_found.html.ep" not found.
+[Sun Oct 19 06:18:08 2014] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sun Oct 19 06:18:08 2014] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sun Oct 19 06:18:08 2014] [debug] 404 Not Found (0.022244s, 44.956/s).
+[Sun Oct 19 06:18:11 2014] [debug] GET "/1".
+[Sun Oct 19 06:18:11 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "index".
+[Sun Oct 19 06:18:11 2014] [debug] Rendering template "main/index.html.ep".
+[Sun Oct 19 06:18:11 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 19 06:18:11 2014] [debug] 200 OK (0.006644s, 150.512/s).
+[Sun Oct 19 06:18:12 2014] [debug] GET "/10".
+[Sun Oct 19 06:18:12 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "index".
+[Sun Oct 19 06:18:12 2014] [debug] Rendering cached template "main/index.html.ep".
+[Sun Oct 19 06:18:12 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 19 06:18:12 2014] [debug] 200 OK (0.002906s, 344.116/s).
+[Sun Oct 19 06:18:14 2014] [debug] GET "/10".
+[Sun Oct 19 06:18:14 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "index".
+[Sun Oct 19 06:18:14 2014] [debug] Rendering cached template "main/index.html.ep".
+[Sun Oct 19 06:18:14 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 19 06:18:14 2014] [debug] 200 OK (0.002939s, 340.252/s).
+[Sun Oct 19 06:18:16 2014] [debug] GET "/10".
+[Sun Oct 19 06:18:16 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "index".
+[Sun Oct 19 06:18:16 2014] [debug] Rendering cached template "main/index.html.ep".
+[Sun Oct 19 06:18:16 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 19 06:18:16 2014] [debug] 200 OK (0.001930s, 518.135/s).
+[Sun Oct 19 06:18:32 2014] [debug] GET "/10".
+[Sun Oct 19 06:18:32 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "index".
+[Sun Oct 19 06:18:32 2014] [debug] Rendering cached template "main/index.html.ep".
+[Sun Oct 19 06:18:32 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 19 06:18:32 2014] [debug] 200 OK (0.002747s, 364.033/s).
+[Sun Oct 19 06:18:41 2014] [info] Listening at "http://*:3000".
+[Sun Oct 19 06:18:43 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 19 06:18:43 2014] [debug] GET "/10".
+[Sun Oct 19 06:18:43 2014] [debug] Controller "controller" does not exist.
+[Sun Oct 19 06:18:43 2014] [debug] Template "d.html.ep" not found.
+[Sun Oct 19 06:18:43 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sun Oct 19 06:18:43 2014] [debug] Template "not_found.html.ep" not found.
+[Sun Oct 19 06:18:43 2014] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sun Oct 19 06:18:43 2014] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sun Oct 19 06:18:43 2014] [debug] 404 Not Found (0.018576s, 53.833/s).
+[Sun Oct 19 06:19:07 2014] [info] Listening at "http://*:3000".
+[Sun Oct 19 06:19:09 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 19 06:19:09 2014] [debug] GET "/10".
+[Sun Oct 19 06:19:09 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "index".
+[Sun Oct 19 06:19:09 2014] [debug] Rendering template "main/index.html.ep".
+[Sun Oct 19 06:19:09 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 19 06:19:09 2014] [debug] 200 OK (0.010819s, 92.430/s).
+[Sun Oct 19 06:19:40 2014] [info] Listening at "http://*:3000".
+[Sun Oct 19 06:20:09 2014] [info] Listening at "http://*:3000".
+[Sun Oct 19 06:20:11 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 19 06:20:11 2014] [debug] GET "/10".
+[Sun Oct 19 06:20:11 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sun Oct 19 06:20:11 2014] [debug] Template "not_found.html.ep" not found.
+[Sun Oct 19 06:20:11 2014] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sun Oct 19 06:20:11 2014] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sun Oct 19 06:20:11 2014] [debug] 404 Not Found (0.023213s, 43.079/s).
+[Sun Oct 19 06:21:03 2014] [info] Listening at "http://*:3000".
+[Sun Oct 19 06:21:06 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 19 06:21:06 2014] [debug] GET "/10".
+[Sun Oct 19 06:21:06 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sun Oct 19 06:21:06 2014] [debug] Template "not_found.html.ep" not found.
+[Sun Oct 19 06:21:06 2014] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sun Oct 19 06:21:06 2014] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sun Oct 19 06:21:06 2014] [debug] 404 Not Found (0.021661s, 46.166/s).
+[Sun Oct 19 06:21:13 2014] [debug] GET "/10".
+[Sun Oct 19 06:21:13 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sun Oct 19 06:21:13 2014] [debug] Template "not_found.html.ep" not found.
+[Sun Oct 19 06:21:13 2014] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sun Oct 19 06:21:13 2014] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sun Oct 19 06:21:13 2014] [debug] 404 Not Found (0.009501s, 105.252/s).
+[Sun Oct 19 06:21:33 2014] [debug] GET "/10".
+[Sun Oct 19 06:21:33 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sun Oct 19 06:21:33 2014] [debug] Template "not_found.html.ep" not found.
+[Sun Oct 19 06:21:33 2014] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sun Oct 19 06:21:33 2014] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sun Oct 19 06:21:33 2014] [debug] 404 Not Found (0.007629s, 131.079/s).
+[Sun Oct 19 06:27:27 2014] [info] Listening at "http://*:3000".
+[Sun Oct 19 06:27:32 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 19 06:27:32 2014] [debug] GET "/10".
+[Sun Oct 19 06:27:32 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "index".
+[Sun Oct 19 06:27:32 2014] [debug] Rendering template "main/index.html.ep".
+[Sun Oct 19 06:27:32 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 19 06:27:32 2014] [debug] 200 OK (0.009712s, 102.965/s).
+[Sun Oct 19 06:28:31 2014] [info] Listening at "http://*:3000".
+[Sun Oct 19 06:28:33 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 19 06:28:33 2014] [debug] GET "/10".
+[Sun Oct 19 06:28:33 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "index".
+[Sun Oct 19 06:28:33 2014] [debug] Rendering template "main/index.html.ep".
+[Sun Oct 19 06:28:33 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 19 06:28:33 2014] [debug] 200 OK (0.012980s, 77.042/s).
+[Sun Oct 19 06:28:36 2014] [debug] GET "/1".
+[Sun Oct 19 06:28:36 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "index".
+[Sun Oct 19 06:28:36 2014] [debug] Rendering cached template "main/index.html.ep".
+[Sun Oct 19 06:28:36 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 19 06:28:36 2014] [debug] 200 OK (0.002810s, 355.872/s).
+[Sun Oct 19 06:28:37 2014] [debug] GET "/video/1010".
+[Sun Oct 19 06:28:37 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "detail".
+[Sun Oct 19 06:28:37 2014] [debug] Rendering template "main/detail.html.ep".
+[Sun Oct 19 06:28:37 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 19 06:28:37 2014] [debug] 200 OK (0.007280s, 137.363/s).
+[Sun Oct 19 06:28:37 2014] [debug] GET "/video/js/bootstrap.min.js".
+[Sun Oct 19 06:28:37 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sun Oct 19 06:28:37 2014] [debug] Template "not_found.html.ep" not found.
+[Sun Oct 19 06:28:37 2014] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sun Oct 19 06:28:37 2014] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sun Oct 19 06:28:37 2014] [debug] 404 Not Found (0.019955s, 50.113/s).
+[Sun Oct 19 06:28:45 2014] [debug] GET "/tag/%E3%83%AD%E3%83%AA".
+[Sun Oct 19 06:28:45 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sun Oct 19 06:28:45 2014] [debug] Template "not_found.html.ep" not found.
+[Sun Oct 19 06:28:45 2014] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sun Oct 19 06:28:45 2014] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sun Oct 19 06:28:45 2014] [debug] 404 Not Found (0.007780s, 128.535/s).
+[Sun Oct 19 06:28:53 2014] [debug] GET "/tag/%E3%83%AD%E3%83%AA/1".
+[Sun Oct 19 06:28:53 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "tag".
+[Sun Oct 19 06:28:53 2014] [debug] Rendering template "main/tag.html.ep".
+[Sun Oct 19 06:28:53 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 19 06:28:53 2014] [debug] 200 OK (0.006223s, 160.694/s).
+[Sun Oct 19 06:28:53 2014] [debug] GET "/tag/%E3%83%AD%E3%83%AA/js/bootstrap.min.js".
+[Sun Oct 19 06:28:53 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sun Oct 19 06:28:53 2014] [debug] Template "not_found.html.ep" not found.
+[Sun Oct 19 06:28:53 2014] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sun Oct 19 06:28:53 2014] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sun Oct 19 06:28:53 2014] [debug] 404 Not Found (0.009171s, 109.039/s).
+[Sun Oct 19 06:29:29 2014] [info] Listening at "http://*:3000".
+[Sun Oct 19 06:29:31 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 19 06:29:31 2014] [debug] GET "/tag/%E3%83%AD%E3%83%AA/1".
+[Sun Oct 19 06:29:31 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "tag".
+[Sun Oct 19 06:29:31 2014] [debug] Rendering template "main/tag.html.ep".
+[Sun Oct 19 06:29:31 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 19 06:29:31 2014] [debug] 200 OK (0.010567s, 94.634/s).
+[Sun Oct 19 06:29:31 2014] [debug] GET "/tag/%E3%83%AD%E3%83%AA/js/bootstrap.min.js".
+[Sun Oct 19 06:29:31 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sun Oct 19 06:29:31 2014] [debug] Template "not_found.html.ep" not found.
+[Sun Oct 19 06:29:31 2014] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sun Oct 19 06:29:31 2014] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sun Oct 19 06:29:31 2014] [debug] 404 Not Found (0.019921s, 50.198/s).
+[Sun Oct 19 06:29:35 2014] [debug] GET "/tag/%E3%83%AD%E3%83%AA".
+[Sun Oct 19 06:29:35 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sun Oct 19 06:29:35 2014] [debug] Template "not_found.html.ep" not found.
+[Sun Oct 19 06:29:35 2014] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sun Oct 19 06:29:35 2014] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sun Oct 19 06:29:35 2014] [debug] 404 Not Found (0.008924s, 112.057/s).
+[Sun Oct 19 06:32:02 2014] [info] Listening at "http://*:3000".
+[Sun Oct 19 06:32:07 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 19 06:32:07 2014] [debug] GET "/".
+[Sun Oct 19 06:32:07 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "index".
+[Sun Oct 19 06:32:07 2014] [debug] Rendering template "main/index.html.ep".
+[Sun Oct 19 06:32:07 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 19 06:32:07 2014] [debug] 200 OK (0.014065s, 71.098/s).
+[Sun Oct 19 06:32:12 2014] [debug] GET "/1".
+[Sun Oct 19 06:32:12 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "index".
+[Sun Oct 19 06:32:12 2014] [debug] Rendering template "main/index.html.ep".
+[Sun Oct 19 06:32:12 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 19 06:32:12 2014] [debug] 200 OK (0.004519s, 221.288/s).
+[Sun Oct 19 06:32:15 2014] [debug] GET "/2".
+[Sun Oct 19 06:32:15 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "index".
+[Sun Oct 19 06:32:15 2014] [debug] Rendering cached template "main/index.html.ep".
+[Sun Oct 19 06:32:15 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 19 06:32:15 2014] [debug] 200 OK (0.001614s, 619.579/s).
+[Sun Oct 19 06:32:17 2014] [debug] GET "/video/1010".
+[Sun Oct 19 06:32:17 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "detail".
+[Sun Oct 19 06:32:17 2014] [debug] Rendering template "main/detail.html.ep".
+[Sun Oct 19 06:32:17 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 19 06:32:17 2014] [debug] 200 OK (0.004751s, 210.482/s).
+[Sun Oct 19 06:32:17 2014] [debug] GET "/video/js/bootstrap.min.js".
+[Sun Oct 19 06:32:17 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sun Oct 19 06:32:17 2014] [debug] Template "not_found.html.ep" not found.
+[Sun Oct 19 06:32:17 2014] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sun Oct 19 06:32:17 2014] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sun Oct 19 06:32:17 2014] [debug] 404 Not Found (0.028238s, 35.413/s).
+[Sun Oct 19 06:32:22 2014] [debug] GET "/tag/%E3%83%AD%E3%83%AA".
+[Sun Oct 19 06:32:22 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "tag".
+[Sun Oct 19 06:32:22 2014] [debug] Rendering template "main/tag.html.ep".
+[Sun Oct 19 06:32:22 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 19 06:32:22 2014] [debug] 200 OK (0.006531s, 153.116/s).
+[Sun Oct 19 06:32:22 2014] [debug] GET "/tag/js/bootstrap.min.js".
+[Sun Oct 19 06:32:22 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sun Oct 19 06:32:22 2014] [debug] Template "not_found.html.ep" not found.
+[Sun Oct 19 06:32:22 2014] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sun Oct 19 06:32:22 2014] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sun Oct 19 06:32:22 2014] [debug] 404 Not Found (0.010618s, 94.180/s).
+[Sun Oct 19 06:32:25 2014] [debug] GET "/tag/%E3%83%AD%E3%83%AA/2".
+[Sun Oct 19 06:32:25 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "genre".
+[Sun Oct 19 06:32:25 2014] [debug] Rendering template "main/genre.html.ep".
+[Sun Oct 19 06:32:25 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 19 06:32:25 2014] [debug] 200 OK (0.006936s, 144.175/s).
+[Sun Oct 19 06:32:25 2014] [debug] GET "/tag/%E3%83%AD%E3%83%AA/js/bootstrap.min.js".
+[Sun Oct 19 06:32:25 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sun Oct 19 06:32:25 2014] [debug] Template "not_found.html.ep" not found.
+[Sun Oct 19 06:32:25 2014] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sun Oct 19 06:32:25 2014] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sun Oct 19 06:32:25 2014] [debug] 404 Not Found (0.008042s, 124.347/s).
+[Sun Oct 19 06:32:28 2014] [debug] GET "/tag".
+[Sun Oct 19 06:32:28 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sun Oct 19 06:32:28 2014] [debug] Template "not_found.html.ep" not found.
+[Sun Oct 19 06:32:28 2014] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sun Oct 19 06:32:28 2014] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sun Oct 19 06:32:28 2014] [debug] 404 Not Found (0.008510s, 117.509/s).
+[Sun Oct 19 06:32:33 2014] [debug] GET "/genre/%E3%83%8A%E3%83%B3%E3%83%91".
+[Sun Oct 19 06:32:33 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "genre".
+[Sun Oct 19 06:32:33 2014] [debug] Rendering template "main/genre.html.ep".
+[Sun Oct 19 06:32:33 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 19 06:32:33 2014] [debug] 200 OK (0.007135s, 140.154/s).
+[Sun Oct 19 06:32:33 2014] [debug] GET "/genre/js/bootstrap.min.js".
+[Sun Oct 19 06:32:33 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sun Oct 19 06:32:33 2014] [debug] Template "not_found.html.ep" not found.
+[Sun Oct 19 06:32:33 2014] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sun Oct 19 06:32:33 2014] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sun Oct 19 06:32:33 2014] [debug] 404 Not Found (0.007318s, 136.649/s).
+[Sun Oct 19 06:32:39 2014] [debug] GET "/genre/%E3%83%8A%E3%83%B3%E3%83%91/13".
+[Sun Oct 19 06:32:39 2014] [debug] Routing to controller "MojoTemplate::Controller::Main" and action "genre".
+[Sun Oct 19 06:32:39 2014] [debug] Rendering template "main/genre.html.ep".
+[Sun Oct 19 06:32:39 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 19 06:32:39 2014] [debug] 200 OK (0.006745s, 148.258/s).
+[Sun Oct 19 06:32:39 2014] [debug] GET "/genre/%E3%83%8A%E3%83%B3%E3%83%91/js/bootstrap.min.js".
+[Sun Oct 19 06:32:39 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sun Oct 19 06:32:39 2014] [debug] Template "not_found.html.ep" not found.
+[Sun Oct 19 06:32:39 2014] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sun Oct 19 06:32:39 2014] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sun Oct 19 06:32:39 2014] [debug] 404 Not Found (0.004462s, 224.115/s).
+[Sun Oct 19 06:32:42 2014] [debug] GET "/about".
+[Sun Oct 19 06:32:42 2014] [debug] Routing to controller "MojoTemplate::Controller::Other" and action "about".
+[Sun Oct 19 06:32:42 2014] [debug] Rendering template "other/about.html.ep".
+[Sun Oct 19 06:32:42 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 19 06:32:42 2014] [debug] 200 OK (0.002391s, 418.235/s).
