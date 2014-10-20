@@ -12,7 +12,7 @@ mojoliciouのスケルトンにちょっとだけ手を加えた君
 
 ```sh
 git clone git@github.com:takuya542/mojo_template.git
-cpanm --installdeps .
 cd mojo_template
+cpanm --installdeps .
 perl script/mojo_template daemon
 ```
