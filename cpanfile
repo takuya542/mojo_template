@@ -7,4 +7,5 @@ requires 'DBD::SQLite','== 1.42';
 requires 'Teng','== 0.17';
 requires 'Encode','== 2.62';
 requires 'Class::Accessor::Fast','== 0.34';
-requires 'Mojoliciout','== 5.52';
+requires 'Mojolicious','== 5.52';
+requires 'Constant::Exporter','== 0.01';

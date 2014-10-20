@@ -2,11 +2,14 @@ package MojoTemplate::Controller::Main;
 use Mojo::Base 'Mojolicious::Controller';
 use Data::Dumper::Names;
 use MojoTemplate::Logic::Model;
+use MojoTemplate::Logic::Constants;
 
 # This action will render a template
 sub index {
   my $self = shift;
   my $page = $self->param('page');
+
+  print Dumper BASE_URL;
 
   $self->render('main/index');
 }
