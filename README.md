@@ -2,7 +2,12 @@ mojo_template
 =============
 
 mojoliciouのスケルトンにちょっとだけ手を加えた君
-普通のサイトなら必要なページのルーティングとか、bootstrapベースのデフォルトテンプレートとかetc
+
+
+普通のサイトなら必要なページのルーティング
+bootstrapベースのデフォルトテンプレート
+Constants::Exporterを用いたConstansクラスの追加
+cpanfile
 
 
 ```sh
