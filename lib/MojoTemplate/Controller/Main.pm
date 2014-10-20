@@ -1,6 +1,7 @@
 package MojoTemplate::Controller::Main;
 use Mojo::Base 'Mojolicious::Controller';
 use Data::Dumper::Names;
+use MojoTemplate::Logic::Model;
 
 # This action will render a template
 sub index {
